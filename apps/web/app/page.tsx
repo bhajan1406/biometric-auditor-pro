@@ -15,7 +15,7 @@ export default function Dashboard() {
         setLoading(true);
         setRecommendation(null);
         try {
-            const response = await fetch("http://127.0.0.1:8000/coach", {
+            const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/coach`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
@@ -28,7 +28,7 @@ export default function Dashboard() {
             setRecommendation(data.recommendation);
         } catch (error) {
             console.error("Error fetching recommendation:", error);
-            setRecommendation("Failed to connect to the Biometric Auditor API. Ensure the backend is running at http://localhost:8000");
+            setRecommendation("Failed to connect to the Biometric Auditor API. Please try again.");
         } finally {
             setLoading(false);
         }
