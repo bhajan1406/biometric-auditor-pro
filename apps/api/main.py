@@ -31,7 +31,7 @@ class CoachRequest(BaseModel):
 async def get_coach_recommendation(request: CoachRequest):
     try:
         # 1. Ingestion Agent
-        biometrics = fetch_biometrics()
+        biometrics = fetch_biometrics(sleep_hours=request.sleep, resting_hr=request.hr)
         
         # 2. Compliance Agent
         compliance_result = check_compliance(biometrics)

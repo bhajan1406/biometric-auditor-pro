@@ -8,12 +8,6 @@ load_dotenv()
 # Initialize client
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
-# ADD THIS CODE HERE - to see available models
-print("Available models:")
-for model in client.models.list():
-    print(f"Model: {model.name}")
-print("\n")
-
 @track
 def get_recommendation(compliance_result: dict, user_plan: str) -> str:
     status = compliance_result["status"]
@@ -28,7 +22,7 @@ def get_recommendation(compliance_result: dict, user_plan: str) -> str:
     input_text = f"Plan: {user_plan}, Status: {status}, Data: {biometrics}"
     
     response = client.models.generate_content(
-        model="models/gemini-2.5-flash",
+        model="models/gemini-3-flash-preview",  
         contents=f"{system_instruction}\n\n{input_text}"
     )
     
