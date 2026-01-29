@@ -108,7 +108,7 @@ biometric-auditor-pro/
 🎓 Key Features
 
 Real-time Biometric Analysis - Instant processing of athlete data
-AI-Powered Coaching - Personalized recommendations using Gemini 2.5 Flash
+AI-Powered Coaching - Personalized recommendations using Gemini 3 Flash Preview
 Safety-First Approach - Compliance checks prevent overtraining
 Trace Logging - Full observability with Opik integration
 Scalable Architecture - Modular agent design for easy expansion
