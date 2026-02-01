@@ -5,11 +5,21 @@ def fetch_biometrics(sleep_hours: float = None, resting_hr: int = None, user_id:
     """
     Processes biometric data from user input or simulates it for testing.
     """
+    # --- INSERT VALIDATION HERE ---
+    # Validate inputs before processing
+    if sleep_hours is not None and (sleep_hours < 0 or sleep_hours > 16):
+        raise ValueError("Sleep hours must be between 0 and 16")
+    
+    if resting_hr is not None and (resting_hr < 30 or resting_hr > 150):
+        raise ValueError("Resting heart rate must be between 30 and 150 bpm")
+    # ------------------------------
+
     # Use provided values or generate mock data for testing
     biometric_data = {
         "user_id": user_id,
         "sleep_hours": sleep_hours if sleep_hours is not None else 7.0,
         "resting_hr": resting_hr if resting_hr is not None else 60,
+        # Now we know these values are safe to pass to the calculator
         "recovery_score": calculate_recovery_score(sleep_hours, resting_hr)
     }
     return biometric_data

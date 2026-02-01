@@ -1,0 +1,407 @@
+{
+  "users": {
+    "test_user_20260131_205157": {
+      "entries": [
+        {
+          "id": 1,
+          "timestamp": "2026-01-31T20:51:59.444567",
+          "biometrics": {
+            "sleep_hours": 7.5,
+            "resting_hr": 65,
+            "recovery_score": 85
+          },
+          "compliance": {
+            "status": "Optimal",
+            "severity_score": 0,
+            "reasons": []
+          },
+          "workout_plan": "5K Easy Run",
+          "recommendation_preview": "Great biometrics! You're cleared for training. Your sleep is optimal......",
+          "completed": true,
+          "metadata": {
+            "day_of_week": "Saturday",
+            "week_number": 5
+          },
+          "completed_at": "2026-01-31T20:51:59.836404"
+        },
+        {
+          "id": 2,
+          "timestamp": "2026-01-31T20:51:59.504225",
+          "biometrics": {
+            "sleep_hours": 8.0,
+            "resting_hr": 60,
+            "recovery_score": 90
+          },
+          "compliance": {
+            "status": "Optimal",
+            "severity_score": 0,
+            "reasons": []
+          },
+          "workout_plan": "Upper Body Strength",
+          "recommendation_preview": "Recommendation for Upper Body Strength......",
+          "completed": true,
+          "metadata": {
+            "day_of_week": "Saturday",
+            "week_number": 5
+          }
+        },
+        {
+          "id": 3,
+          "timestamp": "2026-01-31T20:51:59.559905",
+          "biometrics": {
+            "sleep_hours": 6.0,
+            "resting_hr": 75,
+            "recovery_score": 62
+          },
+          "compliance": {
+            "status": "Warning",
+            "severity_score": 1,
+            "reasons": [
+              "Status: Warning"
+            ]
+          },
+          "workout_plan": "HIIT Intervals",
+          "recommendation_preview": "Recommendation for HIIT Intervals......",
+          "completed": false,
+          "metadata": {
+            "day_of_week": "Saturday",
+            "week_number": 5
+          }
+        },
+        {
+          "id": 4,
+          "timestamp": "2026-01-31T20:51:59.610640",
+          "biometrics": {
+            "sleep_hours": 9.0,
+            "resting_hr": 58,
+            "recovery_score": 92
+          },
+          "compliance": {
+            "status": "Optimal",
+            "severity_score": 0,
+            "reasons": []
+          },
+          "workout_plan": "Easy Yoga",
+          "recommendation_preview": "Recommendation for Easy Yoga......",
+          "completed": true,
+          "metadata": {
+            "day_of_week": "Saturday",
+            "week_number": 5
+          }
+        },
+        {
+          "id": 5,
+          "timestamp": "2026-01-31T20:51:59.665663",
+          "biometrics": {
+            "sleep_hours": 4.5,
+            "resting_hr": 88,
+            "recovery_score": 40
+          },
+          "compliance": {
+            "status": "Critical",
+            "severity_score": 3,
+            "reasons": [
+              "Status: Critical"
+            ]
+          },
+          "workout_plan": "Heavy Squats",
+          "recommendation_preview": "Recommendation for Heavy Squats......",
+          "completed": false,
+          "metadata": {
+            "day_of_week": "Saturday",
+            "week_number": 5
+          }
+        },
+        {
+          "id": 6,
+          "timestamp": "2026-01-31T20:51:59.709862",
+          "biometrics": {
+            "sleep_hours": 7.5,
+            "resting_hr": 68,
+            "recovery_score": 78
+          },
+          "compliance": {
+            "status": "Warning",
+            "severity_score": 1,
+            "reasons": [
+              "Status: Warning"
+            ]
+          },
+          "workout_plan": "Light Cardio",
+          "recommendation_preview": "Recommendation for Light Cardio......",
+          "completed": true,
+          "metadata": {
+            "day_of_week": "Saturday",
+            "week_number": 5
+          }
+        },
+        {
+          "id": 7,
+          "timestamp": "2026-01-31T20:51:59.758327",
+          "biometrics": {
+            "sleep_hours": 8.5,
+            "resting_hr": 62,
+            "recovery_score": 88
+          },
+          "compliance": {
+            "status": "Optimal",
+            "severity_score": 0,
+            "reasons": []
+          },
+          "workout_plan": "Full Body Workout",
+          "recommendation_preview": "Recommendation for Full Body Workout......",
+          "completed": false,
+          "metadata": {
+            "day_of_week": "Saturday",
+            "week_number": 5
+          }
+        }
+      ],
+      "created_at": "2026-01-31T20:51:59.444567",
+      "total_workouts": 7,
+      "completed_workouts": 4
+    },
+    "test_user_20260131_230301": {
+      "entries": [
+        {
+          "id": 1,
+          "timestamp": "2026-01-31T23:03:01.753321",
+          "biometrics": {
+            "sleep_hours": 7.5,
+            "resting_hr": 65,
+            "recovery_score": 85
+          },
+          "compliance": {
+            "status": "Optimal",
+            "severity_score": 0,
+            "reasons": []
+          },
+          "workout_plan": "5K Easy Run",
+          "recommendation_preview": "Great biometrics! You're cleared for training. Your sleep is optimal......",
+          "completed": true,
+          "metadata": {
+            "day_of_week": "Saturday",
+            "week_number": 5
+          },
+          "completed_at": "2026-01-31T23:03:02.136037"
+        },
+        {
+          "id": 2,
+          "timestamp": "2026-01-31T23:03:01.830426",
+          "biometrics": {
+            "sleep_hours": 8.0,
+            "resting_hr": 60,
+            "recovery_score": 90
+          },
+          "compliance": {
+            "status": "Optimal",
+            "severity_score": 0,
+            "reasons": []
+          },
+          "workout_plan": "Upper Body Strength",
+          "recommendation_preview": "Recommendation for Upper Body Strength......",
+          "completed": true,
+          "metadata": {
+            "day_of_week": "Saturday",
+            "week_number": 5
+          }
+        },
+        {
+          "id": 3,
+          "timestamp": "2026-01-31T23:03:01.882569",
+          "biometrics": {
+            "sleep_hours": 6.0,
+            "resting_hr": 75,
+            "recovery_score": 62
+          },
+          "compliance": {
+            "status": "Warning",
+            "severity_score": 1,
+            "reasons": [
+              "Status: Warning"
+            ]
+          },
+          "workout_plan": "HIIT Intervals",
+          "recommendation_preview": "Recommendation for HIIT Intervals......",
+          "completed": false,
+          "metadata": {
+            "day_of_week": "Saturday",
+            "week_number": 5
+          }
+        },
+        {
+          "id": 4,
+          "timestamp": "2026-01-31T23:03:01.925804",
+          "biometrics": {
+            "sleep_hours": 9.0,
+            "resting_hr": 58,
+            "recovery_score": 92
+          },
+          "compliance": {
+            "status": "Optimal",
+            "severity_score": 0,
+            "reasons": []
+          },
+          "workout_plan": "Easy Yoga",
+          "recommendation_preview": "Recommendation for Easy Yoga......",
+          "completed": true,
+          "metadata": {
+            "day_of_week": "Saturday",
+            "week_number": 5
+          }
+        },
+        {
+          "id": 5,
+          "timestamp": "2026-01-31T23:03:01.960382",
+          "biometrics": {
+            "sleep_hours": 4.5,
+            "resting_hr": 88,
+            "recovery_score": 40
+          },
+          "compliance": {
+            "status": "Critical",
+            "severity_score": 3,
+            "reasons": [
+              "Status: Critical"
+            ]
+          },
+          "workout_plan": "Heavy Squats",
+          "recommendation_preview": "Recommendation for Heavy Squats......",
+          "completed": false,
+          "metadata": {
+            "day_of_week": "Saturday",
+            "week_number": 5
+          }
+        },
+        {
+          "id": 6,
+          "timestamp": "2026-01-31T23:03:02.002945",
+          "biometrics": {
+            "sleep_hours": 7.5,
+            "resting_hr": 68,
+            "recovery_score": 78
+          },
+          "compliance": {
+            "status": "Warning",
+            "severity_score": 1,
+            "reasons": [
+              "Status: Warning"
+            ]
+          },
+          "workout_plan": "Light Cardio",
+          "recommendation_preview": "Recommendation for Light Cardio......",
+          "completed": true,
+          "metadata": {
+            "day_of_week": "Saturday",
+            "week_number": 5
+          }
+        },
+        {
+          "id": 7,
+          "timestamp": "2026-01-31T23:03:02.041861",
+          "biometrics": {
+            "sleep_hours": 8.5,
+            "resting_hr": 62,
+            "recovery_score": 88
+          },
+          "compliance": {
+            "status": "Optimal",
+            "severity_score": 0,
+            "reasons": []
+          },
+          "workout_plan": "Full Body Workout",
+          "recommendation_preview": "Recommendation for Full Body Workout......",
+          "completed": false,
+          "metadata": {
+            "day_of_week": "Saturday",
+            "week_number": 5
+          }
+        }
+      ],
+      "created_at": "2026-01-31T23:03:01.753321",
+      "total_workouts": 7,
+      "completed_workouts": 4
+    },
+    "test_user_api": {
+      "entries": [
+        {
+          "id": 1,
+          "timestamp": "2026-02-01T14:25:22.212946",
+          "biometrics": {
+            "user_id": "test_user_api",
+            "sleep_hours": 7.5,
+            "resting_hr": 65,
+            "recovery_score": 78
+          },
+          "compliance": {
+            "status": "Optimal",
+            "severity_score": 0,
+            "reasons": []
+          },
+          "workout_plan": "5K Easy Run",
+          "recommendation_preview": "Welcome to your first session. Your biometrics are currently **Optimal**. A Recovery Score of 78, paired with 7.5 hours of sleep, indicates your nervous system is well-rested and prepared for the plan...",
+          "completed": false,
+          "metadata": {
+            "day_of_week": "Sunday",
+            "week_number": 5
+          }
+        },
+        {
+          "id": 2,
+          "timestamp": "2026-02-01T14:27:19.747256",
+          "biometrics": {
+            "user_id": "test_user_api",
+            "sleep_hours": 5.5,
+            "resting_hr": 82,
+            "recovery_score": 44
+          },
+          "compliance": {
+            "status": "Warning",
+            "severity_score": 3,
+            "reasons": [
+              "Warning: Sleep (5.5h) is below the optimal 6h threshold.",
+              "Warning: Resting HR (82 bpm) is above the 80 bpm threshold.",
+              "Warning: Recovery score (44/100) is below optimal 60 threshold."
+            ]
+          },
+          "workout_plan": "Heavy Deadlifts",
+          "recommendation_preview": "Coach here. Today\u2019s biometrics signal a significant physiological red flag. Your Resting HR has spiked 17 bpm (from 65 to 82) and sleep is suboptimal at 5.5 hours. A Recovery Score of 44/100, down sha...",
+          "completed": false,
+          "metadata": {
+            "day_of_week": "Sunday",
+            "week_number": 5
+          }
+        },
+        {
+          "id": 3,
+          "timestamp": "2026-02-01T14:30:51.604649",
+          "biometrics": {
+            "user_id": "test_user_api",
+            "sleep_hours": 4.0,
+            "resting_hr": 96,
+            "recovery_score": 25
+          },
+          "compliance": {
+            "status": "Critical",
+            "severity_score": 9,
+            "reasons": [
+              "CRITICAL: Sleep (4.0h) is dangerously low. Minimum 5h required.",
+              "CRITICAL: Resting HR (96 bpm) is dangerously elevated. Rest immediately.",
+              "CRITICAL: Recovery score (25/100) is critically low."
+            ]
+          },
+          "workout_plan": "Marathon Training",
+          "recommendation_preview": "Your biometrics have hit a critical failure point. A Resting Heart Rate of 96 bpm\u2014a staggering 47% increase from your baseline of 65 bpm\u2014combined with only 4.0 hours of sleep, indicates severe systemi...",
+          "completed": false,
+          "metadata": {
+            "day_of_week": "Sunday",
+            "week_number": 5
+          }
+        }
+      ],
+      "created_at": "2026-02-01T14:25:22.212946",
+      "total_workouts": 3,
+      "completed_workouts": 0
+    }
+  }
+}
