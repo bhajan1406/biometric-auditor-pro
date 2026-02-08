@@ -1,4 +1,4 @@
-🏃‍♂️ Biometric Auditor Pro
+🏃‍♂️ Biometric Auditor 
 
 A Multi-Agent AI system that analyzes athlete biometric data and provides personalized training recommendations using Google's Gemini 3 Flash Preview.
 
@@ -131,9 +131,7 @@ Recovery Score: Minimum 60 (Warning), 40 (Critical)
 
 👨‍💻 Author
 
-Saptarshi Dutta (@bhajan1406)
-
-Created for the Mid-Hackathon Submission
+Saptarshi Dutta
 
 Built with ❤️ using Google Gemini 3 Flash Preview
 
